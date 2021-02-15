@@ -62,5 +62,4 @@ int		main(int argc, char **argv)
 		close(fd);
 	if (argc == 3)
 		close(fdb);
-	printf("%i",OPEN_MAX);
 }
