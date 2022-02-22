@@ -50,7 +50,7 @@ int		main(int argc, char **argv)
 		}
 		i = 1;
 		printf("\n\t---------1er txt----------\n");
-		while ((ret = get_next_line(fdb, &line)) > 0 && i++ < 4)
+		while ((line = get_next_line(fdb)) > 0 && i++ < 4)
 		{
 			printf("%s\n", line);
 			free(line);
